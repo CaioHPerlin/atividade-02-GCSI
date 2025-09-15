@@ -14,7 +14,7 @@ export class EquipmentBuilder {
 
   setType(type: string): this {
     this.type = type;
-    return type;
+    return this;
   }
 
   setAttack(attack: number): this {
