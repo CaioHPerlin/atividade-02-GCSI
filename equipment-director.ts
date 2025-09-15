@@ -8,7 +8,8 @@ export class EquipmentDirector {
     return this.builder
       .setName("Excalibur")
       .setType("Sword")
-      .setDefense(100)
+      .setAttack(80)
+      .setDefense(5)
       .setMagic(5)
       .build();
   }
