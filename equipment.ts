@@ -1,6 +1,6 @@
 export class Equipment {
   constructor(
-    public name: number,
+    public name: string,
     public type: string,
     public attack: number,
     public defense: number,
